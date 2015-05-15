@@ -19,9 +19,7 @@
   </head>
   <style>
 	
-	body{
-		position:relative;
-	}
+	
 	
 	#topContainer{
 		background-image:url("pictures/colosseum1.jpg");
@@ -83,16 +81,23 @@
 	}
 	
 	#div3{
-		background-color:#DFE0DB;
+		
 		min-height:1000px;
 		background-size:cover;
 		margin: 0 auto;
-		width:70%;
-		max-width:1500px;
-		min-width:500px;		
+		width:100%;
+		max-width:1300px;
+				
 		
 	}
 	
+	.projects{
+		background-color:#DFE0DB;
+		background-size:cover;
+		width:100%;
+		min-height:1000px;
+		
+	}
 	
 	.center{
 		text-align:center;
@@ -119,7 +124,6 @@
 	}
 	
 	.background{
-		
 		background-color:white;
 		opacity:0.7;
 		border-radius:10px;
@@ -128,7 +132,7 @@
 		margin-left:20px;
 	}
 	
-	.backgroundbottom{
+	.background-bottom{
 		background-color:white;
 		opacity:0.7;
 		border-radius:10px;
@@ -229,85 +233,83 @@
 	
 	</div>
 	
-		
-	<div id="div3" class="container contentContainer">
-		<div class="projectCenter">
-		<div class="row center">
-		
-			<h1 class="center title maroon">My Projects</h1>
-		
-			<p class="lead center maroon">My projects demonstrate my abilities in various web technologies.</p>
-		</div>
-		
-		
-		<div class="row marginBottom row-centered ">
-		
-			<div class="col-md-4 side marginTop background col-centered">
+	<div class="projects">	
+		<div id="div3" class="container contentContainer">
 			
-				<h2><span class="glyphicon glyphicon-book glyphpic"></span><br />Secret Diary</h2>
-				<p>The Secret Diary is an app where users can make an account, log in and out of their account, and write in their own private diary. This app demonstrates my abilities in MySQL, PHP, Bootstrap, Javascript, AJAX, jQuery, HTML5, and CSS.</p>
+			<div class="row center">
+			
+				<h1 class="center title maroon">My Projects</h1>
+			
+				<p class="lead center maroon">My projects demonstrate my abilities in various web technologies.</p>
+			</div>
+			
+			
+			<div class="row  row-centered ">
+			
+				<div class="col-md-4 side marginTop background col-centered">
 				
-				<button class="btn"><a href=""><span class="glyphicon glyphicon-book"></span> View</a></button>
-		
-			</div>
+					<h2><span class="glyphicon glyphicon-book glyphpic"></span><br />Secret Diary</h2>
+					<p>The Secret Diary is an app where users can make an account, log in and out of their account, and write in their own private diary. This app demonstrates my abilities in MySQL, PHP, Bootstrap, Javascript, AJAX, jQuery, HTML5, and CSS.</p>
+					
+					<button class="btn"><a href=""><span class="glyphicon glyphicon-book"></span> View</a></button>
 			
-			<div class="col-md-4 marginTop background col-centered">
-			
-				<h2><span class="glyphicon glyphicon-ice-lolly glyphpic"></span><br />Landing Page for Dank: Mushroom Wars</h2>
-				<p>The Landing Page for Dank: Mushroom Wars is supposed to give viewers some insight into the game. This app demonstrates my abilities in Bootstrap, Javascript, jQuery, AJAX, HTML, and CSS.</p>
+				</div>
 				
-				<button class="btn"><a href="LandingPageDank/LandingPage.html"><span class="glyphicon glyphicon-ice-lolly"></span> View</a></button>
-		
-			</div>
-			
-			
-			
-			<div class="col-md-4 marginTop background col-centered">
-			
-				<h2><span class="glyphicon glyphicon-cutlery glyphpic"></span><br /> WordPress: Creative Chaos in the Kitchen</h2>
-				<p>Creative Chaos in the Kitchen is just an experiment of mine using WordPress. It is a web page that is still in the making, where I will be posting recipes. This website demonstrates my abilities in using WordPress with implementing themes and plugins.</p>
+				<div class="col-md-4 marginTop background col-centered">
 				
-				<button class="btn"><a href="http://jamieyanagisawa.com/WPBlog"><span class="glyphicon glyphicon-cutlery"></span> View</a></button>
-		
-			</div>
+					<h2><span class="glyphicon glyphicon-ice-lolly glyphpic"></span><br />Landing Page for Dank: Mushroom Wars</h2>
+					<p>The Landing Page for Dank: Mushroom Wars is supposed to give viewers some insight into the game. This app demonstrates my abilities in Bootstrap, Javascript, jQuery, AJAX, HTML, and CSS.</p>
+					
+					<button class="btn"><a href="LandingPageDank/LandingPage.html"><span class="glyphicon glyphicon-ice-lolly"></span> View</a></button>
 			
-			</div>
-			
-			
-			
-		</div>	
-			
-		<div class="row marginBottom row-centered">
-		
-			<div class="col-md-4 marginTop backgroundbottom col-centered">
-			
-				<h2><span class="glyphicon glyphicon-cloud glyphpic"></span><br />Weather Wherever</h2>
-				<p>Weather Wherever is an app where users can look up the weather in any city. This app demonstrates my abilities in PHP, Bootstrap, Javascript, jQuery, CSS, and HTML.</p>
+				</div>
 				
-				<button class="btn"><a href="WeatherScraper/weather-scraper.php"><span class="glyphicon glyphicon-cloud"></span> View</a></button>
-		
-			</div>
-			
-			<div class="col-md-4 marginTop backgroundbottom col-centered">
-			
-				<h2><span class="glyphicon glyphicon-envelope glyphpic"></span><br />Postal Code Finder</h2>
-				<p>The Postal Code Finder is an app where users can find the postal code of any address. This app demonstrates my abilities in Google APIs, XML, AJAX, PHP, Bootstrap, Javascript, jQuery, HTML, and CSS.</p>
 				
-				<button class="btn"><a href=""><span class="glyphicon glyphicon-envelope"></span> View</a></button>
-		
-			</div>
-			
-			<div class="col-md-4 marginTop backgroundbottom col-centered">
-			
-				<h2><span class="glyphicon glyphicon-exclamation-sign glyphpic"></span><br />Reaction Test</h2>
-				<p>Test your reactions in this app. This app demonstrates my abilities in HTML and CSS.</p>
 				
-				<button class="btn"><a href="ReactionTest/reaction-test.html"><span class="glyphicon glyphicon-exclamation-sign"></span> View</a></button>
-		
-			</div>
+				<div class="col-md-4 marginTop background col-centered">
+				
+					<h2><span class="glyphicon glyphicon-cutlery glyphpic"></span><br /> WordPress: Creative Chaos in the Kitchen</h2>
+					<p>Creative Chaos in the Kitchen is just an experiment of mine using WordPress. It is a web page that is still in the making, where I will be posting recipes. This website demonstrates my abilities in using WordPress with implementing themes and plugins.</p>
+					
+					<button class="btn"><a href="http://jamieyanagisawa.com/WPBlog"><span class="glyphicon glyphicon-cutlery"></span> View</a></button>
 			
+				</div>
+				
+			
+				
+			
+				
+			
+			
+				<div class="col-md-4 marginTop background col-centered">
+				
+					<h2><span class="glyphicon glyphicon-cloud glyphpic"></span><br />Weather Wherever</h2>
+					<p>Weather Wherever is an app where users can look up the weather in any city. This app demonstrates my abilities in PHP, Bootstrap, Javascript, jQuery, CSS, and HTML.</p>
+					
+					<button class="btn"><a href="WeatherScraper/weather-scraper.php"><span class="glyphicon glyphicon-cloud"></span> View</a></button>
+			
+				</div>
+				
+				<div class="col-md-4 marginTop background col-centered">
+				
+					<h2><span class="glyphicon glyphicon-envelope glyphpic"></span><br />Postal Code Finder</h2>
+					<p>The Postal Code Finder is an app where users can find the postal code of any address. This app demonstrates my abilities in Google APIs, XML, AJAX, PHP, Bootstrap, Javascript, jQuery, HTML, and CSS.</p>
+					
+					<button class="btn"><a href=""><span class="glyphicon glyphicon-envelope"></span> View</a></button>
+			
+				</div>
+				
+				<div class="col-md-4 marginTop background col-centered">
+				
+					<h2><span class="glyphicon glyphicon-exclamation-sign glyphpic"></span><br />Reaction Test</h2>
+					<p>Test your reactions in this app. This app demonstrates my abilities in HTML and CSS.</p>
+					
+					<button class="btn"><a href="ReactionTest/reaction-test.html"><span class="glyphicon glyphicon-exclamation-sign"></span> View</a></button>
+			
+				</div>
+				
+			</div>	
 		</div>		
-			
 			
 	</div>
 	
@@ -315,7 +317,7 @@
 	
 		<div class="row">
 		
-			<div class="col-md-6 col-md-offset-1 maroon" id="aboutMeText">
+			<div class="col-md-6 col-md-offset-2 maroon" id="aboutMeText">
 		
 				<h1 class="center">About Me</h1>
 		
