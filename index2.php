@@ -119,7 +119,6 @@
 		display:inline-block;
 		float: none;
 		text-align:left;
-		margin-right:-4px;
 		
 	}
 	
@@ -128,8 +127,13 @@
 		opacity:0.7;
 		border-radius:10px;
 		height:345px;
-		max-width:400px;
-		margin-left:20px;
+		width:400px;
+		margin-left:10px;
+		margin-right:10px;
+		float:bottom;
+		float:top;
+		float:left;
+		//float:right;
 	}
 	
 	.background-bottom{
@@ -168,7 +172,9 @@
 		margin-top:10px;
 			
 	}
-	
+	.centeredBigColumn{
+		display:inline-block;
+	}
 	#div4{
 		background-image:url("patterns/blacksquares.png");
 		width:100%;
@@ -244,9 +250,9 @@
 			</div>
 			
 			
-			<div class="row  row-centered ">
+			<div class="row  row-centered centeredBigColumn ">
 			
-				<div class="col-md-4 side marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-book glyphpic"></span><br />Secret Diary</h2>
 					<p>The Secret Diary is an app where users can make an account, log in and out of their account, and write in their own private diary. This app demonstrates my abilities in MySQL, PHP, Bootstrap, Javascript, AJAX, jQuery, HTML5, and CSS.</p>
@@ -255,7 +261,7 @@
 			
 				</div>
 				
-				<div class="col-md-4 marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-ice-lolly glyphpic"></span><br />Landing Page for Dank: Mushroom Wars</h2>
 					<p>The Landing Page for Dank: Mushroom Wars is supposed to give viewers some insight into the game. This app demonstrates my abilities in Bootstrap, Javascript, jQuery, AJAX, HTML, and CSS.</p>
@@ -264,9 +270,7 @@
 			
 				</div>
 				
-				
-				
-				<div class="col-md-4 marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-cutlery glyphpic"></span><br /> WordPress: Creative Chaos in the Kitchen</h2>
 					<p>Creative Chaos in the Kitchen is just an experiment of mine using WordPress. It is a web page that is still in the making, where I will be posting recipes. This website demonstrates my abilities in using WordPress with implementing themes and plugins.</p>
@@ -275,13 +279,7 @@
 			
 				</div>
 				
-			
-				
-			
-				
-			
-			
-				<div class="col-md-4 marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-cloud glyphpic"></span><br />Weather Wherever</h2>
 					<p>Weather Wherever is an app where users can look up the weather in any city. This app demonstrates my abilities in PHP, Bootstrap, Javascript, jQuery, CSS, and HTML.</p>
@@ -290,7 +288,7 @@
 			
 				</div>
 				
-				<div class="col-md-4 marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-envelope glyphpic"></span><br />Postal Code Finder</h2>
 					<p>The Postal Code Finder is an app where users can find the postal code of any address. This app demonstrates my abilities in Google APIs, XML, AJAX, PHP, Bootstrap, Javascript, jQuery, HTML, and CSS.</p>
@@ -299,7 +297,7 @@
 			
 				</div>
 				
-				<div class="col-md-4 marginTop background col-centered">
+				<div class="col-md-4 marginTop  col-centered background">
 				
 					<h2><span class="glyphicon glyphicon-exclamation-sign glyphpic"></span><br />Reaction Test</h2>
 					<p>Test your reactions in this app. This app demonstrates my abilities in HTML and CSS.</p>
